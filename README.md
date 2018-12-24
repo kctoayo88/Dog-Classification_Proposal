@@ -1,6 +1,5 @@
-# TestProposal
-Three type of dogs classification
-==== 
+# Three type of dogs classification
+
 Hello,
 
 There are three class of dataset:
