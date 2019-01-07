@@ -49,7 +49,7 @@ def messageshow(Type):
 if __name__ == '__main__':
 
     # load model
-    model = load_model('3_model.h5')
+    model = load_model('Xception_model.h5')
 
     # Give the image path
     prdicted_image_path = openimage()
