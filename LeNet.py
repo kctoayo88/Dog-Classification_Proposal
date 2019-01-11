@@ -10,7 +10,7 @@ from keras.preprocessing.image import ImageDataGenerator
 
 img_size = 120
 n_epochs = 10
-batch_sizes = 4
+batch_sizes = 12
 n_steps_per_epoch = 500
 n_validation_steps = 100
 csv_logger = CSVLogger('Lenet.csv')
@@ -53,7 +53,8 @@ model.fit_generator(train_generator,
                     validation_data=test_generator,
                     steps_per_epoch = n_steps_per_epoch,
                     validation_steps = n_validation_steps,
-                    callbacks=[csv_logger])
+                    callbacks=[csv_logger],
+                    verbose=1)
 
 model.save(model_file_name)
 
