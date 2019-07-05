@@ -1,6 +1,6 @@
 # Dog_Classification_Project
 
-Three type of dogs classification
+Three type of dogs classification.
 
 
 ## Overview
